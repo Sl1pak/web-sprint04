@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Lazy Loading</title>
+</head>
+
+<body>
+    <h1>Lazy loading</h1>
+    <div class="par">
+        <p><span id="now">2</span> images loaded from 5</p>
+    </div>
+    
+    <div class="container">
+        <img src="assets/images/first.png" width="600" height="400" data-src="assets/images/first.png">
+    </div>
+    <div class="container">
+        <img src="assets/images/second.jpg" width="600" height="400" data-src="assets/images/second.jpg">
+    </div>
+    <div class="container">
+        <img class="lazy" src="assets/images/tri.jpg" width="600" height="400" data-src="assets/images/tri.jpg">
+    </div>
+    <div class="container">
+        <img class="lazy" src="assets/images/darling.jpg" width="600" height="400" data-src="assets/images/darling.jpg">
+    </div>
+    <div class="container">
+        <img class="lazy" src="assets/images/kaneki.jpg" width="600" height="400" data-src="assets/images/kaneki.jpg">
+    </div>
+</body>
+
+</html>
